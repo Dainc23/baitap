@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Dainc23/baitap/static/css/main.7d6e3d67.css",
+    "main.js": "/Dainc23/baitap/static/js/main.d9f3e7bc.js",
+    "index.html": "/Dainc23/baitap/index.html",
+    "main.7d6e3d67.css.map": "/Dainc23/baitap/static/css/main.7d6e3d67.css.map",
+    "main.d9f3e7bc.js.map": "/Dainc23/baitap/static/js/main.d9f3e7bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d6e3d67.css",
+    "static/js/main.d9f3e7bc.js"
+  ]
+}
