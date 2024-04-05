@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav{
+    padding: 20px 0px;
+}
+.Nav.active{
+    background-color: white;
+    transition: 1s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.list_Menu {
+    display: flex;
+    
+    justify-content: space-between;
+    text-align: center;
+    width: 560px;
+    transform: translateX(-200px);
+}
+
+.list_Menu li {
+    list-style: none;
+
+
+}
+
+.list_Menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn_user {
+    padding: 10px 12px;
+    border-radius: 100px;
+    border: none;
+    background: #DC2424;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4A569D, #DC2424);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4A569D, #DC2424);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.btn_user i {
+    color: white;
+}
+.Banner{
+    background-color: #b7bcd8;
+    height: 70vh;
+}
+.Nav{
+    position: fixed;
+    width: 100%;
+    
+}
+.btn_Menu{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .list_Menu{
+        display: none;
+    }
+    .btn_user{
+        display: none;
+    }
+    .Nav_bar{
+        width: 500px;
+    }
+    .btn_Menu{
+        display:block;
+        background: none;
+        outline: none;
+        border: none;
+        font-size: 20px;
+    }
+  }
