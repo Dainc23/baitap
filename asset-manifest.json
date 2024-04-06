@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/demo-deploy-github-pages/static/css/main.7d6e3d67.css",
-    "main.js": "/demo-deploy-github-pages/static/js/main.d9f3e7bc.js",
-    "index.html": "/demo-deploy-github-pages/index.html",
-    "main.7d6e3d67.css.map": "/demo-deploy-github-pages/static/css/main.7d6e3d67.css.map",
-    "main.d9f3e7bc.js.map": "/demo-deploy-github-pages/static/js/main.d9f3e7bc.js.map"
+    "main.css": "/baitap/static/css/main.7d6e3d67.css",
+    "main.js": "/baitap/static/js/main.d9f3e7bc.js",
+    "index.html": "/baitap/index.html",
+    "main.7d6e3d67.css.map": "/baitap/static/css/main.7d6e3d67.css.map",
+    "main.d9f3e7bc.js.map": "/baitap/static/js/main.d9f3e7bc.js.map"
   },
   "entrypoints": [
     "static/css/main.7d6e3d67.css",
